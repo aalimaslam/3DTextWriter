@@ -1,0 +1,29 @@
+*{
+    margin:0;padding:0;box-sizing: border-box;
+}
+body{
+    background:black;
+    display:flex;justify-content: center;align-items: center;min-height: 100vh;
+    overflow:hidden;
+}
+h1{
+    outline:none;
+    transform: rotate(-10deg) skewX(10deg);
+    color:orange;
+    font-size:9rem;
+text-shadow:      -1px  1px  #ccc,
+                    -2px 2px  #ccc,
+                  -3px  3px  #ccc,
+                  -4px  4px #ccc,
+                  -5px  5px #ccc,
+                  -6px  6px #ccc,
+                  -7px  7px #ccc,
+                  -8px  8px #ccc,
+                  -9px  9px #ccc,
+                  -10px  10px #ccc,
+                  -11px  11px #ccc,
+                  -12px  12px #ccc
+;
+width:100%;position: absolute;
+text-align: center;
+}
